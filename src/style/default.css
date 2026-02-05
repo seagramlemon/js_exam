@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+:root{
+    --bg: #f7f7f2;
+    --card: #ffffff;
+    --primary: #6b9ac4;
+    --accent: #97c1a9;
+    --text: #2f3e46;
+    --border: #dde5e8;
+    --danger: #e56b6f;
+}

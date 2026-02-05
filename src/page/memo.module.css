@@ -1,0 +1,111 @@
+body{
+    background-color: var(--bg);
+}
+
+.header{
+    padding: 20px;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+
+}
+.header>h1{
+    color:var(--card);
+}
+
+.memo_wrap{
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    gap : 50px;
+}
+.memo_input_wrap{
+    width: 320px;
+    padding: 20px;
+    background-color: var(--card);
+    border-radius: 16px;
+    height: fit-content;
+}
+.memo_input_wrap>h2,.memo_content_wrap>h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.input_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 8x;
+    padding: 8px;
+}
+.input_wrap>*{
+    width: 100%;
+}
+.input_wrap>label{
+    color : #2b5876;
+}
+.input_wrap>input{
+    padding: 4px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.input_wrap>textarea{
+    padding: 4px;
+    resize: none;
+    border : 1px solid #ccc;
+    border-radius: 4px;
+    height: 150px;
+}
+.memo_content_wrap{
+    width: 830px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: var(--card);
+}
+.memo_list_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: flex-start;
+
+}
+.memo_item{
+    width: 250px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.memo_title{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.memo_content{
+    height: 100px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+.memo_sub{
+    font-size: 0.8em;
+    color : #777;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete_btn{
+    padding: 6px 8px;
+    border : none;
+    background-color: #2b5876;
+    color : #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.add_btn{
+    padding: 6px 8px;
+    border : none;
+    background-color: #2b5876;
+    color : #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
