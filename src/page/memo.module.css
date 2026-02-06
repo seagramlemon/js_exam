@@ -4,11 +4,13 @@ body{
 
 .header{
     padding: 20px;
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    
 
 }
 .header>h1{
-    color:var(--card);
+    color:var(--text);
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .memo_wrap{
@@ -39,17 +41,17 @@ body{
     width: 100%;
 }
 .input_wrap>label{
-    color : #2b5876;
+    color : var(--primary);
 }
 .input_wrap>input{
     padding: 4px;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--border);
 }
 .input_wrap>textarea{
     padding: 4px;
     resize: none;
-    border : 1px solid #ccc;
+    border : 1px solid var(--border);
     border-radius: 4px;
     height: 150px;
 }
@@ -69,7 +71,7 @@ body{
 .memo_item{
     width: 250px;
     padding: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border);
     border-radius: 8px;
     height: fit-content;
 }
@@ -95,7 +97,7 @@ body{
 .delete_btn{
     padding: 6px 8px;
     border : none;
-    background-color: #2b5876;
+    background-color: var(--primary);
     color : #fff;
     border-radius: 8px;
     cursor: pointer;
@@ -103,7 +105,7 @@ body{
 .add_btn{
     padding: 6px 8px;
     border : none;
-    background-color: #2b5876;
+    background-color: var(--primary);
     color : #fff;
     border-radius: 8px;
     cursor: pointer;
